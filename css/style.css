@@ -134,12 +134,13 @@ main {
   background-color: rgb(241, 232, 218);
 }
 
+/* MAIN TOP */
+
 .main__top {
   width: 80%;
   margin: auto;
   padding: 3em;
 }
-/* MAIN TOP */
 
 .why {
   color: rgb(95, 158, 160);
@@ -152,4 +153,51 @@ main {
   margin-top: 1em;
   font-weight: bold;
   width: 40%;
+}
+
+.main__top_horizontal_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.icon_card {
+  width: 30%;
+  margin: 1em;
+  height: auto;
+}
+
+.icon_card img {
+  max-width: 100%;
+  margin-top: 3em;
+  margin-left: ;
+}
+
+.icon_card_title {
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.icon_card_text {
+  margin-top: 1em;
+  color: grey;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* COLORED CONTAINER */
+
+.main__colored_box_container {
+  width: 80%;
+  margin: auto;
+  padding: 3em;
+  background-color: yellowgreen;
+  height: 50vh;
+}
+
+.main__colored_container_left {
+  padding: 2em;
+  width: 50%;
+  background-color: yellow;
 }
