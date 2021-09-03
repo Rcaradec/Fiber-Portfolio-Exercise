@@ -10,13 +10,17 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Sign up</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/sign_up.css" />
   </head>
   <body>
-    <section class="section__left">
-      <div class="container">
+    <main class="main__container">
+      <section class="section__left">
         <h2 class="section__left_brand">Fiber</h2>
         <h1 class="section__left_title">Create your Fiber account</h1>
         <form action="">
@@ -32,15 +36,19 @@
             <label for="">E-mail</label>
             <input type="email" placeholder="john@example.com" />
           </div>
-          <div class="tags password">
-            <label for="">Password</label>
+          <label class="label_password" for="">Password</label>
+          <div class="tags" id="tags_icon">
             <input
               id="password_for_icon"
               class="placeholder_inputs"
               type="password"
               placeholder="At least 8 characters"
             />
-            <img id="icon_password" src="../Assets/hide password.svg" alt="" />
+            <img
+              class="icon_password"
+              src="../Assets/hide password.svg"
+              alt=""
+            />
           </div>
           <div class="checkbox_placeholder">
             <input class="placeholder_inputs" type="checkbox" placeholder="At
@@ -56,7 +64,21 @@
             <a href="#" class="sign_in_link">Sign in</a>
           </p>
         </form>
-      </div>
-    </section>
+      </section>
+
+      <section class="section__right">
+        <div class="container__right">
+          <div class="img__right_container">
+            <div class="img__right"></div>
+          </div>
+          <h3 class="title__right">Unparalleled Templates</h3>
+          <p class="text__right">
+            Crafted by a team of professional designers, our templates are
+            eunparalleled in the market
+          </p>
+          <div class="dot__img_container"></div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
