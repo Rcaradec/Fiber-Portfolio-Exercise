@@ -170,7 +170,6 @@ main {
 .icon_card img {
   max-width: 100%;
   margin-top: 3em;
-  margin-left: ;
 }
 
 .icon_card_title {
@@ -192,12 +191,94 @@ main {
   width: 80%;
   margin: auto;
   padding: 3em;
-  background-color: yellowgreen;
-  height: 50vh;
+  background-color: rgba(216, 161, 109, 0.733);
+  display: flex;
+  border-radius: 1.5em;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 .main__colored_container_left {
-  padding: 2em;
   width: 50%;
-  background-color: yellow;
+  text-align: center;
+}
+
+.main__colored_title {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 2em;
+  text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
+}
+
+.main__colored_text {
+  color: grey;
+  margin-top: 3em;
+  font-style: italic;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  margin-top: 1em;
+  text-align: start;
+}
+
+.main__colored_btn {
+  margin-top: 2em;
+  border: 1px solid white;
+}
+
+.main__colored_img_container {
+  width: 50%;
+  margin-bottom: -3em;
+}
+
+.main__colored_img {
+  max-width: 100%;
+}
+
+/* BOTTTOM CARDS  */
+
+.main__bottom_cards {
+  width: 80%;
+  margin: auto;
+}
+
+.bottom__cards_container {
+  display: flex;
+  margin-top: 4em;
+}
+
+.customer__card {
+  border: 1px solid rgb(105, 105, 105);
+  width: 30%;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+
+.card_horizontal_info {
+  display: flex;
+  align-items: center;
+}
+
+.horizontal_text_container {
+  margin-left: 1em;
+}
+
+.customer__card_info_text {
+  font-style: italic;
+  margin-top: 1em;
+}
+
+.customer__card_btn {
+  color: rgb(45, 155, 118);
+  font-weight: bold;
+  background: none;
+  margin-top: 1em;
+  padding: 1em 4em;
+  width: 100%;
+  border: none;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
