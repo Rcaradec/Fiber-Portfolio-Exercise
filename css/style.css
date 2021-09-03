@@ -272,7 +272,7 @@ main {
 .bottom__cards_container {
   display: flex;
   margin-top: 4em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 
 .customer__card {
@@ -319,7 +319,8 @@ main {
 
 footer {
   background-color: bisque;
-  padding-top: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .footer__container {
