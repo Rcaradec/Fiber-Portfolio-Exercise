@@ -12,6 +12,14 @@ body {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   background-color: rgb(95, 158, 160);
   color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+a {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -31,6 +39,9 @@ nav {
   font-size: 3em;
   display: inline;
   font-weight: bold;
+  text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1em;
 }
 
 li {
@@ -86,6 +97,11 @@ li {
   font-size: 3em;
   font-weight: 700;
   margin-top: 0.3em;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
 }
 
 .top_left__text {
@@ -146,6 +162,12 @@ main {
   color: rgb(95, 158, 160);
   font-weight: bold;
   font-size: 2em;
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(27, 144, 173, 0.5) 0px 3px 3px;
 }
 
 .main__top_title {
@@ -153,6 +175,9 @@ main {
   margin-top: 1em;
   font-weight: bold;
   width: 40%;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 .main__top_horizontal_container {
@@ -247,6 +272,7 @@ main {
 .bottom__cards_container {
   display: flex;
   margin-top: 4em;
+  padding-bottom: 3em;
 }
 
 .customer__card {
@@ -266,6 +292,12 @@ main {
   margin-left: 1em;
 }
 
+.info_title {
+  color: rgb(29, 121, 90);
+  font-weight: bold;
+  margin-bottom: 0.1em;
+}
+
 .customer__card_info_text {
   font-style: italic;
   margin-top: 1em;
@@ -281,4 +313,55 @@ main {
   border: none;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: bisque;
+  padding-top: 5em;
+}
+
+.footer__container {
+  width: 80%;
+  margin: auto;
+  padding: 2em;
+  display: flex;
+}
+
+.footer__left_solo {
+  width: 30%;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-weight: bold;
+}
+
+.footer__left_solo_text {
+  margin-top: 1em;
+  line-height: 1.5;
+  text-align: start;
+  width: 70%;
+}
+
+.footer__left_solo_bottom_text {
+  margin-top: 1em;
+}
+
+.footer__right_links {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column a {
+  margin-top: 1em;
+  text-decoration: none;
+  color: black;
 }

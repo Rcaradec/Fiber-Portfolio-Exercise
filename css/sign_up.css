@@ -1,0 +1,79 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.section__left {
+  width: 50%;
+  padding: 4em;
+}
+
+.section__left_brand,
+.section__left_title {
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 3em;
+}
+
+.section__left_title {
+  padding-bottom: 2em;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-bottom: 1em;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  margin-top: 0.3em;
+  border-radius: 0.3em;
+  border: 0.1em solid rgba(128, 128, 128, 0.281);
+}
+
+form input {
+  padding: 1em;
+}
+
+.checkbox {
+  padding-top: 1em;
+}
+
+.checkbox_placeholder {
+  width: 70%;
+  line-height: 1.5;
+  padding-bottom: 1em;
+}
+
+.form_btn {
+  width: 70%;
+  padding: 1em;
+  border: none;
+  background-color: rgb(95, 158, 160);
+  border-radius: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  margin-bottom: 1em;
+}
+
+.bottom_text {
+  width: 70%;
+  text-align: center;
+}
+
+.password {
+  position: relative;
+}
+
+img {
+  max-width: 30%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
